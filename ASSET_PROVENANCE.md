@@ -1,0 +1,1 @@
+emerald-orbit.png: existing app artwork copied unchanged from PrivateLLMChat/src/assets/appearance/emerald-orbit.png. Original generation prompt and provenance: PrivateLLMChat/src/assets/appearance/README.md. No new image generated for this site.
