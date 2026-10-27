@@ -1,15 +1,17 @@
-# Reflection app website
+# App landing page
 
-Source for the iPhone app’s GitHub Pages website. Final app name pending.
+GitHub Pages source for the iPhone app.
 
-- About: privacy, Hermetic philosophy and actual app practices.
-- Readings: the Seven Hermetic Principles and cycles, adapted from the app knowledge base.
-- Draft Privacy and Support, with dimitar@vuksanov.com as the contact.
+The homepage uses short factual copy and genuine screenshots from the current app. The readings use the app’s actual text; do not add summaries, interpretations, or questions unless the user asks. The Privacy page is still a draft.
 
+Live site: https://vuxanov.github.io/reflection-app-website/
 Repository: https://github.com/vuxanov/reflection-app-website
+Publishing source: main branch, root directory. Only website files belong here; the application repository remains private.
 
-GitHub Pages publishing source: main branch, root directory. This repository contains website files only. The separate AI_Guru application repository stays private. Relative links support GitHub’s project-site URL.
+Support: dimitar@vuksanov.com. The current working name is Private AI Guru; the release date remains undecided. No purchases planned for version 1.
 
-The old ChatGPT Sites deployment is superseded and must not receive new website changes. Its removal is tracked separately; do not assume it was deleted.
+The latest local landing refinement uses the Private AI Guru headline, a disabled App Store button until a real listing exists, and “Not rated yet” rather than invented ratings. It displays five actual app screenshots including the hero; library and Solar Cycle captures are recorded in ASSET_PROVENANCE.md. This refinement is not yet published: automatic approval review hit its usage limit. The live site may therefore differ from this local source.
 
-The policy remains a draft pending verification of backup behavior, complete publisher identity, and the SDK/network audit. No final App Store policy approval or release date is implied. See CONTENT_SOURCES.md for editorial provenance and ASSET_PROVENANCE.md for artwork provenance.
+Use GitHub for future updates, not ChatGPT Sites. See CONTENT_SOURCES.md and ASSET_PROVENANCE.md for text and screenshot sources.
+
+The homepage gallery is a seven-slide screenshot carousel (`carousel.js`), supporting swipe, buttons and keyboard arrows. New screenshots are actual simulator captures; see ASSET_PROVENANCE.md.

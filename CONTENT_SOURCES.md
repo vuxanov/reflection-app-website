@@ -1,11 +1,10 @@
-# Content sources and editorial choices
+# Reading sources
 
-User requested stronger privacy/Hermetic/cycles emphasis and publication of material from the existing knowledge base on 27 October 2026.
+The earlier summaries and reflection questions were assistant-written adaptations. The user rejected them on 27 October 2026. They have been removed.
 
-- Hermetic principles: PrivateLLMChat/src/data/hermeticPrinciples.ts. Website summaries are adaptations, not verbatim source passages; reflection questions are newly written. Primary reference: The Kybalion, Chapter II (https://www.gutenberg.org/ebooks/14209). No claim that the seven-principle taxonomy is the whole ancient Hermetic tradition.
-- Cycles: PrivateLLMChat/src/data/cycles.ts. Preserve the app’s named seasons and four core practice frames, without repeating unsupported claims that the Moon governs emotion or that biology follows this nested hierarchy.
-- Intention questions: PrivateLLMChat/src/data/intentionPrompts.ts. Three questions quoted directly, with the rest paraphrased.
-- Actual guided-path names: PrivateLLMChat/src/data/frameworks.ts. Only currently listed features are described; the older PRD is not treated as current implementation.
-- Biological context: NIGMS circadian rhythm overview (https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms). No medical guidance, diagnostic claims, or fixed performance cycles asserted.
-- Privacy: docs/release/READINESS_AUDIT.md. Local inference is distinguished from OS backup and support correspondence. SDK audit and backup decision remain open.
-- No testimonials, invented statistics, or claims of a final app name. No claim that the adapted text was written verbatim by the user.
+The published readings now render the actual app strings, escaped for HTML without rewriting:
+
+- PrivateLLMChat/src/data/hermeticPrinciples.ts: HERMETIC_PRINCIPLES headline, subheadline and description.
+- PrivateLLMChat/src/data/cycles.ts: CYCLES name and description.
+
+No new questions, explanations or interpretations are added to those passages. Future edits must preserve the app text unless the user explicitly asks for editorial changes.
